@@ -1,0 +1,36 @@
+{
+  "name": "signum-commit-my-balance",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14"
+  },
+  "repository": {
+    "url": "https://github.com/ohager/signum-commit-my-balance",
+    "type": "github"
+  },
+  "description": "Commits part or all balance for mining Signum",
+  "bin": {
+    "signumcmb": "./cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "format": "standard",
+    "format:fix": "standard --fix",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@signumjs/core": "^1.0.0-rc.1",
+    "@signumjs/crypto": "^1.0.0-rc.1",
+    "@signumjs/util": "^1.0.0-rc.1",
+    "commander": "^7.2.0",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.6.0"
+  },
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "standard": "^16.0.3"
+  }
+}
