@@ -1,3 +1,6 @@
+![npm](https://img.shields.io/npm/v/signum-commit-my-balance)
+![npm](https://img.shields.io/npm/dm/signum-commit-my-balance?label=Used%20by)
+
 # signum-commit-my-balance
 
 <img src="./img/signum_logo.svg" alt="Signum Logo" height="64" />
@@ -10,6 +13,12 @@ Think of it as kind of stake, signalizing that you not only leech the chain, but
 Read also: [Optimizing Mining Income on Signum](https://signum-network.medium.com/optimizing-mining-income-with-poc-b3948172d47d)
 
 This small tool makes adding commitment easy. Together with scheduled jobs of your OS you can automate the process.
+
+> DISCLAIMER: 
+> This software comes without any warranty. Keep in mind that you need to use your very secret
+> passphrase to sign the transactions. Although, this software never ever stores or sends 
+> the secret to any server, you have to be conscious that you use this tool on your very own risk.
+> The author assumes no responsibility for the use of this program.
 
 # Install
 

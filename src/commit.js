@@ -4,13 +4,12 @@ const { Amount } = require('@signumjs/util')
 const { generateMasterKeys } = require('@signumjs/crypto')
 
 async function applyCommitment ({ api, amount, signPrivateKey, publicKey, fee }) {
-  return Promise.resolve()
-  // return api.account.addCommitment({
-  //   amountPlanck: amount.getPlanck(),
-  //   feePlanck: fee.getPlanck(),
-  //   senderPrivateKey: signPrivateKey,
-  //   senderPublicKey: publicKey
-  // })
+  return api.account.addCommitment({
+    amountPlanck: amount.getPlanck(),
+    feePlanck: fee.getPlanck(),
+    senderPrivateKey: signPrivateKey,
+    senderPublicKey: publicKey
+  })
 }
 
 function getBalancesFromAccount (account) {
