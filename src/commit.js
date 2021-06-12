@@ -84,7 +84,8 @@ async function commit (opts) {
   console.info(`Current Commitment: ${balances.committedBalance}`)
   console.info(`Total Balance: ${balances.totalBalance}`)
   console.info(`Fee: ${fee}`)
-  console.info(`New Commitment: ${newCommitment}`)
+  console.info(`Added Commitment: ${commitmentAmount}`)
+  console.info(`New Total Commitment: ${newCommitment}`)
   console.info(`Available Balance After Commitment: ${balanceAfterCommitment}`)
 
   if (exec) {
