@@ -1,6 +1,6 @@
 # signum-commit-my-balance
 
-<img src="./assets/signum_logo.svg" alt="Signum Logo" height="64" />
+<img src="./img/signum_logo.svg" alt="Signum Logo" height="64" />
 
 Commits part or entire balance for mining in Signum
 
