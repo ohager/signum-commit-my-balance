@@ -1,3 +1,6 @@
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=ohager_signum-commit-my-balance&metric=security_rating)](https://sonarcloud.io/dashboard?id=ohager_signum-commit-my-balance)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ohager_signum-commit-my-balance&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=ohager_signum-commit-my-balance)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=ohager_signum-commit-my-balance&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=ohager_signum-commit-my-balance)
 ![npm](https://img.shields.io/npm/v/signum-commit-my-balance)
 ![npm](https://img.shields.io/npm/dm/signum-commit-my-balance?label=Used%20by)
 
